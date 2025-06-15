@@ -1,0 +1,207 @@
+/* Full fdа*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+
+}
+
+.container {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* Header */
+.logo{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-size: 18px;
+}
+
+.hedearspan {
+    color: #2e2f42;
+}
+
+.link {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #2e2f42;
+}
+
+.address .link {
+    color: #434455;
+}
+
+.header .link:hover, .header .link:focus {
+    color: #404bbf;
+
+}
+
+.navheader li > a {
+    font-weight: 500;
+    font-size: 16px;
+}
+.address {
+    font-style: normal;
+}
+
+.address li > a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Main */
+
+.sectionone {
+    color: #2e2f42;
+    background-color: #2E2F42;
+    color: white;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+
+.sectionone .button:hover, .sectionone .button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+/* section 2 */
+
+.sectiontwo h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+}
+
+/* section 3 */
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.sectionthree {
+    background-color: #F4F4FD;
+}
+
+.sectionthree li {
+    background-color: #FFFFFF;
+}
+
+
+.threep {
+    font-size: 16px;
+}
+
+/* section 4 */
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.sectionfour ul {
+    background-color: #FFFFFF;
+}
+
+/* footer */
+
+
+.footer {
+    background-color: #2E2F42;
+    color: white;
+}
+
+.footerlogo {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footerspan {
+    color: #f4f4fd;
+}
+
+.footerp {
+    color: #F4F4FD;
+}
