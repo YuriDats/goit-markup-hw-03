@@ -21,6 +21,7 @@ a {
 img {
     display: flex;
 }
+
 .container {
     width: 1158px;
     margin-right: auto;
@@ -62,6 +63,11 @@ p {
 }
 
 /* Header */
+.header .container{
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
+
 .logo{
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
@@ -70,6 +76,21 @@ p {
     text-transform: uppercase;
     color: #4d5ae5;
     font-size: 18px;
+    margin-right: 76px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+.navheader ul {
+    display: flex;
+    gap: 40px;
+}
+
+.address ul {
+    display: flex;
+    gap: 40px;
 }
 
 .hedearspan {
@@ -80,6 +101,7 @@ p {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .address .link {
