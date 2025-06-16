@@ -173,9 +173,9 @@ p {
 }
 
 /* section 2 */
-.sectiontwo-container {
+.sectionone {
     padding: 120px 0;
-
+    
 }
 
 .visually-hidden {
@@ -189,8 +189,6 @@ p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-.advantages{
     margin-bottom: 8px;
 }
 
