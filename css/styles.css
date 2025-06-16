@@ -19,7 +19,9 @@ a {
 }
 
 img {
-    display: flex;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -63,6 +65,10 @@ p {
 }
 
 /* Header */
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header .container{
     border-bottom: 1px solid #e7e9fc;
     display: flex;
