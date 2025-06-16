@@ -30,7 +30,7 @@ img {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -253,6 +253,9 @@ p {
 }
 
 /* section 4 */
+.sectionfour .container {
+    width: 1198px;
+}
 .sectionfour {
     padding-top: 120px; 
     padding-bottom: 120px;
