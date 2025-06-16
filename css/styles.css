@@ -127,12 +127,17 @@ p {
 }
 
 /* Main */
+.sectionone .container {
+    padding: 188px 0;
+    max-width: 496px;
+}
 
 .sectionone {
     color: #2e2f42;
     background-color: #2E2F42;
     color: white;
     font-weight: 500;
+    
 }
 
 .title {
@@ -151,6 +156,13 @@ p {
     text-align: center;
     line-height: 24px;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+
 }
 
 .sectionone .button:hover, .sectionone .button:focus {
@@ -159,6 +171,23 @@ p {
 }
 
 /* section 2 */
+.sectiontwo .container{
+    padding: 120px 0;
+
+}
+
+.advantages{
+    margin-bottom: 8px;
+}
+
+.link_two {
+    width: calc((100% - 72px) / 4);
+}
+
+.sectiontwo ul {
+    display: flex;
+    gap: 24px;
+}
 
 .sectiontwo h3 {
     font-weight: 500;
@@ -211,6 +240,7 @@ p {
 .footer {
     background-color: #2E2F42;
     color: white;
+    padding: 100px 0
 }
 
 .footerlogo {
@@ -221,6 +251,8 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footerspan {
