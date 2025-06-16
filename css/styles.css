@@ -253,8 +253,9 @@ p {
 }
 
 /* section 4 */
-.portfolio-url {
-    width: 1128px;
+
+.sectionfour .portfolio-url {
+    width: 1169px;
 }
 .sectionfour {
     padding-top: 120px; 
@@ -266,6 +267,7 @@ p {
     column-gap: 24px;
     row-gap: 48px;
 }
+
 
 .portfolio-url li{
     flex-basis: calc((100% - 48px) / 3);
