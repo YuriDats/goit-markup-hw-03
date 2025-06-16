@@ -26,6 +26,13 @@ h4,
 h5, h6, p {
     margin: 0;
 }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -268,6 +275,7 @@ p {
     gap: 24px 48px;
     margin: 0;
     padding: 0;
+    column-gap: 24px
 }
 
 
