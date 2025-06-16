@@ -126,7 +126,6 @@ p {
 /* Main */
 .sectionone {
     padding: 188px 0;
-    
 }
 
 
@@ -173,7 +172,7 @@ p {
 }
 
 /* section 2 */
-.sectionone {
+.sectiontwo {
     padding: 120px 0;
     
 }
@@ -182,18 +181,19 @@ p {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
-    border: 0;
     padding: 0;
+    margin: -1px;
     white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
     overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
+}
+.link-two p {
     margin-bottom: 8px;
 }
-
 .link-two {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 74px) / 4);
 }
 
 .sectiontwo ul {
