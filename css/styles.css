@@ -80,7 +80,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 15px;
+  padding: 0 15px;
 }
 
 .logo {
@@ -89,12 +89,18 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 40px;
+  margin-right: 76px;
 }
 
 .hedearspan {
   color: #2e2f42;
 }
+
+.navheader {
+    display: flex;
+    align-items: center;
+}
+
 
 .nav-list,
 .contact-list {
